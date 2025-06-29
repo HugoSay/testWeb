@@ -97,8 +97,7 @@
     
     /* Hero */
     .hero {
-        height: 420px;
-        max-height: 420px;
+        min-height: 100vh;
     }
     
     .hero-overlay {
@@ -110,7 +109,7 @@
     .hero-container {
         grid-template-columns: 1fr;
         text-align: center;
-        padding: 20px 0;
+        padding: 100px 0 60px;
     }
     
     .hero-content {
@@ -124,43 +123,43 @@
     }
     
     .hero-title {
-        font-size: 1.8rem;
+        font-size: 2.5rem;
     }
     
     .hero-title-highlight {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
     
     .hero-subtitle {
-        font-size: 1rem;
-        margin-bottom: 1rem;
+        font-size: 1.1rem;
+        margin-bottom: 2rem;
     }
     
     .hero-stats {
-        gap: 1rem;
-        margin-bottom: 1rem;
+        gap: 1.5rem;
+        margin-bottom: 2rem;
         justify-content: center;
     }
     
     .hero-stat-number {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
     
     .hero-stat-label {
-        font-size: 0.7rem;
+        font-size: 0.8rem;
     }
     
     .hero-buttons {
         flex-direction: column;
         align-items: center;
-        gap: 0.8rem;
+        gap: 1rem;
     }
     
     .btn-large {
         width: 100%;
         max-width: 280px;
-        padding: 10px 20px;
-        font-size: 0.9rem;
+        padding: 12px 24px;
+        font-size: 1rem;
     }
     
     /* Sections */
