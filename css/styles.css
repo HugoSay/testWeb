@@ -676,6 +676,275 @@ p {
     animation: fadeInUp 0.6s ease forwards;
 }
 
+/* Service Pages */
+.service-hero {
+    background: linear-gradient(135deg, #F5F5F5 0%, #EEEEEE 100%);
+    padding: 140px 0 60px;
+}
+
+.service-hero-content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.service-header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 3rem;
+    align-items: center;
+}
+
+.service-icon-large {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border-radius: 50%;
+    box-shadow: 0 10px 30px rgba(1,16,72,0.15);
+}
+
+.service-icon-large img {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+}
+
+.service-name {
+    font-size: 2.5rem;
+    color: #011048;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.service-tagline {
+    font-size: 1.3rem;
+    color: #4B4C4D;
+    margin-bottom: 2rem;
+    line-height: 1.5;
+}
+
+.service-contact {
+    margin-top: 2rem;
+}
+
+.service-content {
+    padding: 80px 0;
+}
+
+.service-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 4rem;
+}
+
+.service-main {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.service-section h2 {
+    color: #011048;
+    margin-bottom: 2rem;
+}
+
+.process-steps {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.step-item {
+    display: flex;
+    gap: 1.5rem;
+    align-items: flex-start;
+}
+
+.step-number {
+    flex-shrink: 0;
+    width: 60px;
+    height: 60px;
+    background: #D3B34E;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.step-content h3 {
+    color: #011048;
+    margin-bottom: 0.5rem;
+}
+
+.step-content p {
+    color: #4B4C4D;
+    line-height: 1.6;
+}
+
+.sectors-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.sector-item {
+    background: #F5F5F5;
+    padding: 2rem;
+    border-radius: 8px;
+    border-left: 4px solid #D3B34E;
+}
+
+.sector-item h3 {
+    color: #011048;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.sector-item p {
+    color: #4B4C4D;
+    line-height: 1.6;
+}
+
+.advantages-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.advantage-item {
+    background: #F5F5F5;
+    padding: 2rem;
+    border-radius: 8px;
+    border-left: 4px solid #D3B34E;
+}
+
+.advantage-item h4 {
+    color: #011048;
+    margin-bottom: 1rem;
+}
+
+.advantage-item p {
+    color: #4B4C4D;
+    line-height: 1.6;
+}
+
+.service-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.services-links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.service-link-sidebar {
+    color: #011048;
+    text-decoration: none;
+    padding: 0.8rem;
+    background: #F5F5F5;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.service-link-sidebar:hover {
+    background: #D3B34E;
+    color: white;
+}
+
+.expert-info p {
+    margin-bottom: 1rem;
+    color: #4B4C4D;
+}
+
+.expert-role {
+    color: #D3B34E;
+    font-weight: 600;
+}
+
+.expert-desc {
+    font-size: 0.9rem;
+    color: #4B4C4D;
+    line-height: 1.5;
+}
+
+.kpi-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.kpi-item {
+    text-align: center;
+    padding: 1rem;
+    background: #F5F5F5;
+    border-radius: 8px;
+}
+
+.kpi-number {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #D3B34E;
+    line-height: 1;
+}
+
+.kpi-label {
+    display: block;
+    font-size: 0.9rem;
+    color: #4B4C4D;
+    margin-top: 0.5rem;
+}
+
+.downloads {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.download-link {
+    color: #011048;
+    text-decoration: none;
+    padding: 0.8rem;
+    background: #F5F5F5;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.download-link:hover {
+    background: #D3B34E;
+    color: white;
+}
+
+.service-cta {
+    background: #011048;
+    color: white;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.service-cta .cta-content h2 {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.service-cta .cta-content p {
+    color: rgba(255,255,255,0.9);
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+}
+
 /* Profile Pages */
 .profile-hero {
     background: linear-gradient(135deg, #F5F5F5 0%, #EEEEEE 100%);
